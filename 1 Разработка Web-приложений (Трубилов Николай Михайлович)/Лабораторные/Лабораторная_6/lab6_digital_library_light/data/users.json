@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "login": "admin",
+        "full_name": "Главный администратор",
+        "password_hash": "$2y$10$LDkE1.v8AoXqjzqC3HelSuYz4KmLTGdEQCMK0QOyscDnR61U8..82",
+        "role": "admin",
+        "permissions": {
+            "view": true,
+            "edit": true,
+            "delete": true,
+            "manage_users": true
+        },
+        "created_at": "2026-04-16 12:00:00"
+    },
+    {
+        "id": 2,
+        "login": "admin111",
+        "full_name": "Дмитрий",
+        "password_hash": "$2y$10$mH4v8WdxTRIRHrfrbvYpSeXDvJ6Dq4H2uSn8Wd7U4VsWhJcyDkLfO",
+        "role": "user",
+        "permissions": {
+            "view": true,
+            "edit": false,
+            "delete": false,
+            "manage_users": false
+        },
+        "created_at": "2026-04-16 22:16:12"
+    }
+]
