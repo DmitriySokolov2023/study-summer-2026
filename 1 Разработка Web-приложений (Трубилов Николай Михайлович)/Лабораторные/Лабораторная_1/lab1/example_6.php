@@ -9,10 +9,10 @@
     $c = "Привет";
     $d = true;
 
-    echo '$a = 10, тип переменной: ' . gettype($a) . "<br>";
-    echo '$b = 15.7, тип переменной: ' . gettype($b) . "<br>";
-    echo '$c = "Привет", тип переменной: ' . gettype($c) . "<br>";
-    echo '$d = true, тип переменной: ' . gettype($d) . "<br>";
+    echo '$a = '. $a .', тип переменной: ' . gettype($a) . "<br>";
+    echo '$b = '. $b .', тип переменной: ' . gettype($b) . "<br>";
+    echo '$c = '. $c .', тип переменной: ' . gettype($c) . "<br>";
+    echo '$d = '. $d .', тип переменной: ' . gettype($d) . "<br>";
     ?>
 </body>
 </html>

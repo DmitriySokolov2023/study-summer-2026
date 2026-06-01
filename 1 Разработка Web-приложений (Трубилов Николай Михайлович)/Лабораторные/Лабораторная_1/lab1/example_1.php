@@ -12,6 +12,5 @@
 <?php
     phpinfo();
 ?>
-
     </body>
 </html>
